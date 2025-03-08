@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:medicine_project_practice/pages/homepage.dart';
 import 'package:medicine_project_practice/pages/login_page.dart';
 
 class WelcomePage extends StatelessWidget {
