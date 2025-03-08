@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medicine_project_practice/pages/homepage.dart';
+import 'package:medicine_project_practice/pages/sign_up_page.dart';
 
 class Logincard2 extends StatelessWidget {
   const Logincard2({super.key});
@@ -66,7 +67,14 @@ class Logincard2 extends StatelessWidget {
               ),
             ),
             Text("Forgot Password?"),
-            Text("SignUp!"),
+            InkWell(
+              onTap: () {
+                Navigator.of(
+                  context,
+                ).push(MaterialPageRoute(builder: (context) => SignUpPage()));
+              },
+              child: Text("SignUp!"),
+            ),
           ],
         ),
       ),

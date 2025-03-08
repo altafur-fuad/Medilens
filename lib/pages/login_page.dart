@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:medicine_project_practice/pages/homepage.dart';
 import 'package:medicine_project_practice/pages/welcome_page.dart';
 import 'package:medicine_project_practice/wigets/logincard_2.dart';
 
@@ -58,3 +59,11 @@ class LoginPage extends StatelessWidget {
 //           MaterialPageRoute(
 //             builder: (context) => DetailsPage(data: pokemonMap),
 //           ),
+
+// FloatingActionButton(
+//                   onPressed: () {
+//                     Navigator.of(
+//                       context,
+//                     ).push(MaterialPageRoute(builder: (context) => HomePage()));
+//                   },
+//                 ),
