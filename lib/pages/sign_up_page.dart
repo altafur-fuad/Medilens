@@ -3,7 +3,7 @@ import 'package:medicine_project_practice/pages/homepage.dart';
 import 'package:medicine_project_practice/pages/welcome_page.dart';
 
 class SignUpPage extends StatelessWidget {
-  SignUpPage({super.key});
+  const SignUpPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class SignUpPage extends StatelessWidget {
             onTap: () {
               Navigator.of(
                 context,
-              ).push(MaterialPageRoute(builder: (context) => welcome_page()));
+              ).push(MaterialPageRoute(builder: (context) => WelcomePage()));
             },
             child: Icon(Icons.arrow_back),
           ),

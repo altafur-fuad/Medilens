@@ -17,6 +17,9 @@ class Signupcard extends StatelessWidget {
         padding: const EdgeInsets.only(top: 15.0),
         child: Container(
           alignment: Alignment.center,
+          height: 50,
+          width: 155,
+          color: const Color.fromARGB(255, 92, 127, 187),
           child: Text(
             "Sign Up",
             style: TextStyle(
@@ -25,9 +28,6 @@ class Signupcard extends StatelessWidget {
               fontSize: 20.0,
             ),
           ),
-          height: 50,
-          width: 155,
-          color: const Color.fromARGB(255, 92, 127, 187),
         ),
       ),
     );

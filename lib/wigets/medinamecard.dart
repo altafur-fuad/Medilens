@@ -3,7 +3,7 @@ import 'package:medicine_project_practice/pages/medicine_name_page.dart';
 
 class Medinamecard extends StatelessWidget {
   final String text;
-  Medinamecard({super.key, required this.text});
+  const Medinamecard({super.key, required this.text});
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class Medinamecard extends StatelessWidget {
           height: 80.0,
           color: const Color.fromARGB(255, 160, 169, 169),
           child: Text(
-            "$text",
+            text,
             style: TextStyle(
               fontSize: 20,
               color: Colors.black,

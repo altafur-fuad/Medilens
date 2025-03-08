@@ -18,7 +18,7 @@ class LoginPage extends StatelessWidget {
             onTap: () {
               Navigator.of(
                 context,
-              ).push(MaterialPageRoute(builder: (context) => welcome_page()));
+              ).push(MaterialPageRoute(builder: (context) => WelcomePage()));
             },
             child: Icon(Icons.arrow_circle_left_outlined, size: 50),
           ),

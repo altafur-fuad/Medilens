@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:medicine_project_practice/pages/homepage.dart';
 import 'package:medicine_project_practice/pages/login_page.dart';
 
-class welcome_page extends StatelessWidget {
-  const welcome_page({super.key});
+class WelcomePage extends StatelessWidget {
+  const WelcomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
